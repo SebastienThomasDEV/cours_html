@@ -1,0 +1,128 @@
+/*||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||*/
+
+/* ********************************** Selecteur de classe ***************************************
+
+    Ce selecteur cible tous les éléments html qui ont la classe .header
+
+    exemple:
+
+    .[votre classe] {
+        [propriété css]: [valeur];
+    }
+
+    💡 Notez le point devant le nom de la classe, c'est la syntaxe pour cibler une classe en css.
+
+*********************************************************************************************** */
+
+
+/* Votre réponse à l'exercice 2 */
+
+.header {
+    display: flex;
+    background-color: black;
+    color: white;
+    justify-content: space-between;
+}
+
+
+/*||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||*/
+
+
+/* ********************************** Selecteur de type *******************************************
+
+    Ce selecteur cible tous les éléments html de type h1
+
+
+    exemple:
+
+        [votre type de balise] {
+            [propriété css]: [valeur];
+        }
+
+    ⚠️ Attention ce selecteur cible tous les éléments de type de la balise que vous avez choisi,
+        si vous avez plusieurs balises dans votre page,
+        ils seront tous ciblés, et auront donc tous les mêmes propriétés css.
+
+  *********************************************************************************************** */
+
+
+/* Votre réponse à l'exercice 3 */
+
+h1 {
+    font-size: 2rem;
+    font-weight: bold;
+    margin: 1rem;
+    font-family: "Roboto", sans-serif;
+}
+
+/*||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||*/
+
+/* ********************************** Selecteur d'id *******************************************
+
+        Ce selecteur cible tous les éléments html qui ont l'id #header
+
+        exemple:
+
+        #[votre id] {
+            [propriété css]: [valeur];
+        }
+
+        💡 Notez le # devant le nom de l'id, c'est la syntaxe pour cibler un id en css.
+
+ **********************************************************************************************/
+
+
+/* Votre réponse à l'exercice 4 - consigne A */
+
+#liste_de_navigation {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    list-style: none;
+    gap: 1rem;
+    height: 100%;
+    padding-inline: 2em;
+}
+
+
+/*||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||*/
+
+/* ********************************** Le sélecteur d'éléments enfants *******************************************
+
+        Ce selecteur cible tous les éléments html qui sont enfants d'un élément html de type ul
+
+        exemple:
+
+        [votre type de balise parent] [votre type de balise enfant] {
+            [propriété css]: [valeur];
+        }
+
+        ⚠️ Attention ce selecteur cible tous les éléments enfants de la balise que vous avez choisi,
+            si vous avez plusieurs balises enfants dans votre page,
+            ils seront tous ciblés, et auront donc tous les mêmes propriétés css.
+
+
+ **********************************************************************************************/
+
+/* ********************************** Le sélecteur d'éléments enfants descendant *******************************************
+
+        Ce selecteur cible tous les éléments html qui sont enfants d'un élément html de type ul
+
+        exemple:
+
+        [votre type de balise parent] > [votre type de balise enfant] {
+            [propriété css]: [valeur];
+        }
+
+
+ **********************************************************************************************/
+
+
+/* Votre réponse à l'exercice 4 - consigne B */
+
+#liste_de_navigation > li a {
+    color: white;
+    text-decoration: none;
+}
+
+/*||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||*/

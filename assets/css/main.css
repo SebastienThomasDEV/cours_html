@@ -1,0 +1,51 @@
+/*||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||*/
+/* ********************************** Directive d'importation ***************************************
+
+    Cette directive permet d'importer un fichier css dans un autre fichier css.
+
+    exemple:
+
+    @import "chemin/vers/le/fichier.css";
+
+    💡 Notez les guillemets autour du chemin, c'est la syntaxe pour importer un fichier css en css.
+
+*********************************************************************************************** */
+
+/* Votre réponse à l'exercice 1 - consigne B */
+
+@import "header.css";
+
+/*||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||*/
+
+/* ********************************** Selecteur universel ***************************************
+
+    Ce selecteur cible tous les éléments html.
+
+    exemple:
+
+    * {
+        [propriété css]: [valeur];
+    }
+
+    💡 Notez l'astérisque, c'est la syntaxe pour cibler tous les éléments en css.
+    ⚠️ Attention ce selecteur cible tous les éléments de votre page, il est donc à utiliser avec prudence.
+
+
+*********************************************************************************************** */
+
+/* Votre réponse à l'exercice 1 - consigne C */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style-type: none;
+    text-decoration: none;
+}
+
+body {
+    height: 100vh;
+    width: 100vw;
+}
+
+/*||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||*/
