@@ -7,101 +7,11 @@
         <meta content="ie=edge" http-equiv="X-UA-Compatible">
         <meta content="TP CSS" name="description">
         <title>TP CSS</title>
-
-        <!--////////////////////////////////////////////////////////////////////////////////////////////////////////////
-
-        Exercice 1 :
-
-            A) Vous allez devoir importer vos ressources (javascript/css/images) nécessaires à votre document html.
-            Utilisez les balises appropriées pour chaque type de ressource.
-            Dès que vous avez importés vos ressources, vous pouvez passer à la consigne suivante.
-
-            B) Dans votre fichier main.css, importez un fichier css.
-
-            C) Dans votre fichier main.css, utiliser un selecteur approprié pour styliser tous les éléments de votre page.
-            Donnez-leur :
-                -une propriété box-sizing avec la valeur border-box.
-                -une propriété margin avec la valeur 0.
-                -une propriété padding avec la valeur 0.
-                -désactivez la décoration de texte
-                -désactivez la mise en forme par défaut des listes
-
-
-            Documentation :
-                https://developer.mozilla.org/fr/docs/Web/HTML/Element/link
-                https://developer.mozilla.org/fr/docs/Web/HTML/Element/script
-                https://developer.mozilla.org/fr/docs/Web/CSS/@import
-                https://developer.mozilla.org/fr/docs/Web/CSS/box-sizing
-
-            Infos :
-                Pour accéder rapidement à la documentation en maintenant la touche "ctrl" de votre clavier enfoncée
-                et cliqué sur le lien de la documentation.
-
-         ////////////////////////////////////////////////////////////////////////////////////////////////////////////-->
-
-        <!----------------------------------------------
-                A) Importez vos ressources juste en dessous
-        ----------------------------------------------->
-
-
-        <link rel="stylesheet" href="./assets/css/main.css">
+        <link rel="stylesheet" href="./assets/css/index.css">
     </head>
     <body>
-        <!--////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
-
-        Exercice 2 :
-            Vous allez devoir styliser votre balise <header> en utilisant les sélecteurs de classe.
-            Donnez-lui
-                -une couleur de fond noir,
-                -une couleur de texte blanche.
-                -un comportement de flex.
-                -une propriété justify-content avec la valeur space-between.
-
-            Documentation :
-                https://developer.mozilla.org/fr/docs/Web/CSS/Class_selectors
-                https://developer.mozilla.org/fr/docs/Web/CSS/flex
-                https://developer.mozilla.org/fr/docs/Web/CSS/justify-content
-
-         ////////////////////////////////////////////////////////////////////////////////////////////////////////////////////-->
         <header class="header">
-            <!--////////////////////////////////////////////////////////////////////////////////////////////////////////////
-
-                    Exercice 3 :
-                        Vous allez styliser le titre principal de votre page en utilisant les sélecteurs de type.
-                        Donnez-lui :
-                            -une police de caractère Roboto Serif.
-                            -une unité de mesure relative pour sa taille.
-                            -une margin avec une unité de mesure relative.
-                            -un style de texte en gras.
-
-                    Documentation :
-                        https://developer.mozilla.org/fr/docs/Web/CSS/Type_selectors
-                        https://developer.mozilla.org/fr/docs/Web/CSS/font-family
-                        https://developer.mozilla.org/fr/docs/Web/CSS/font-size
-
-            ////////////////////////////////////////////////////////////////////////////////////////////////////////////////-->
             <h1>Mon TP CSS.</h1>
-            <!--////////////////////////////////////////////////////////////////////////////////////////////////////////////
-
-                    Exercice 4 :
-                        A) Ciblez votre balise <ul> (liste à puces) en utilisant les sélecteurs d'identifiant.
-                        Donnez-lui :
-                             -un comportement de flex.
-                             -une propriété gap avec une unité de mesure relative.
-                             -donnez-lui une propriété de hauteur avec une unité de mesure,
-                                qui prendra 100% de la hauteur de son parent.
-                             -donnez-lui une propriété de padding-inline avec une unité de mesure relative.
-
-                        B) Ciblez la balise <li> (élément de liste) en utilisant les sélecteurs d'élément.
-                           Ciblez tous les éléments de liste par leur type en utilisant les sélecteurs de type.
-                           Pour chaque élements de la liste :
-                                - donnez-lui une couleur de texte blanche.
-
-                    Documentation:
-                        https://developer.mozilla.org/fr/docs/Web/CSS/ID_selectors
-                        https://developer.mozilla.org/fr/docs/Web/CSS/Type_selectors
-
-            //////////////////////////////////////////////////////////////////////////////////////////////////////////////-->
             <nav>
                 <ul id="liste_de_navigation">
                     <li>
@@ -122,40 +32,14 @@
                 </ul>
             </nav>
         </header>
-        <!--////////////////////////////////////////////////////////////////////////////////////////////////////////////
-
-                    Exercice 5 :
-                        A) Ciblez votre balise <main> en utilisant le sélecteur de votre choix (classe, id, type).
-                        Donnez-lui :
-                            -un comportement de flex.
-                            -une propriété gap avec une unité de mesure relative.
-                            -donnez-lui une propriété de hauteur avec une unité de mesure,
-                                qui prendra 100% de la hauteur de son parent.
-                            -donnez-lui une propriété de padding-inline avec une unité de mesure relative.
-
-                        B) Créer un block avec la balise approprié à l'intérieur de votre balise <main>.
-                        À l'intérieur de ce block, créer 2 balises avec les types appropriés :
-                            -une qui contiendra un titre de niveau 2, un paragraphe et un lien.
-                            -L'autre qui contiendra une image.
-
-                        C) Styliser le footer de votre page en utilisant le style de votre choix.
-
-                        Avec ce que vous avez appris jusqu'à présent, styliser ces éléments.
-                        Gérer la disposition de ces éléments avec les propriétés de flexbox.
-                        Appuyez-vous sur la documentation pour vous aider.
-                        Soyez créatif !
-
-         ////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////-->
-        <main></main>
+        <main>
+            <div>
+                <h2>Un titre important</h2>
+                <p>------------------------------</p>
+                <a href="">lien</a>
+            </div>
+            <img src="" alt="">
+        </main>
         <footer></footer>
-        <!--////////////////////////////////////////////////////////////////////////////////////////////////////////////
-
-                        Exercice Bonus :
-                            utiliser la page subscribe.html pour vous entrainer à styliser un formulaire.
-                            Utiliser les balises de formulaire pour créer un formulaire d'inscription.
-                            Styliser ce formulaire avec les propriétés de flexbox.
-                            Appuyez-vous sur la documentation pour vous aider.
-
-        ////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////-->
 </body>
 </html>
